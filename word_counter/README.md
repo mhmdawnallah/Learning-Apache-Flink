@@ -31,4 +31,4 @@ In addition to the types of joins, Flink also supports several join hints that c
 - `shuffle`: This hint is used to redistribute the elements of one or both input tables across all worker nodes based on the join key. This can improve performance when the input tables are not well-partitioned on the join key.
 
 ### Note
-This is a simple example to understand the basic concepts of Apache Flink, you can improve it by adding more functionality, error handling and testing.
+This is a simple example to understand the basic concepts of Apache Flink, you can improve it by adding more functionality, error handling and testing also I added other joins example in `src/main/java/wc` directory just for the sake of practicing.
