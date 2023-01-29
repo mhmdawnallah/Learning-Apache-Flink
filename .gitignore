@@ -234,6 +234,7 @@ Temporary Items
 ### macOS Patch ###
 # iCloud generated files
 *.icloud
+META-INF/MANIFEST.MF
 
 # End of https://www.toptal.com/developers/gitignore/api/macos
 

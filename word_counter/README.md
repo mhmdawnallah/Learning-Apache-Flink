@@ -12,7 +12,7 @@ The program outputs the counts of each word in the text file. The output should 
 - Clone the repository
 - Navigate to the root of the word_counter directory
 - Run the command `mvn clean install`
-- Run the command `mvn exec:java -Dexec.mainClass=wc.WordCount`
+- Run the command `mvn exec:java -Dexec.mainClass=batch.WordCount`
 
 ### Transformations
 - `map`: The map transformation is used to apply a function to each element in the dataset. In this program, it is used to split the line of text into individual words.
@@ -31,4 +31,4 @@ In addition to the types of joins, Flink also supports several join hints that c
 - `shuffle`: This hint is used to redistribute the elements of one or both input tables across all worker nodes based on the join key. This can improve performance when the input tables are not well-partitioned on the join key.
 
 ### Note
-This is a simple example to understand the basic concepts of Apache Flink, you can improve it by adding more functionality, error handling and testing also I added other joins example in `src/main/java/wc` directory just for the sake of practicing.
+This is a simple example to understand the basic concepts of Apache Flink, you can improve it by adding more functionality, error handling and testing also I added other joins example in `src/main/java/batch` directory just for the sake of practicing.

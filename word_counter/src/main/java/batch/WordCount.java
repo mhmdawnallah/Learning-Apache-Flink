@@ -1,4 +1,4 @@
-package wc;
+package batch;
 
 import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.api.common.functions.MapFunction;

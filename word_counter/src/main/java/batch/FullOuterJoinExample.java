@@ -1,4 +1,4 @@
-package wc;
+package batch;
 
 import org.apache.flink.api.common.functions.JoinFunction;
 import org.apache.flink.api.common.functions.MapFunction;
